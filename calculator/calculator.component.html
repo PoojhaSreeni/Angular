@@ -1,0 +1,22 @@
+<header>
+    <h3>ANGULAR CALCULATOR</h3>
+<div class = "card">
+    <div class="card-header">CALC</div>
+    <div class = "card-body">
+        <div class = "form-group">
+            <input type = "number" [(ngModel)] = "number1" name = "number1" placeholder = "Enter Number.."class = "form-control">
+            <input type = "number" [(ngModel)] = "number2" name = "number2" placeholder = "Enter Number.." class = "form-control">
+        </div>
+        <div class = "operations">
+            <button class = "btn-success" (click)= "add()">SUM</button>
+            <button class = "btn-primary" (click)= "subtract()">DIFFERENCE</button>
+            <button class = "btn-danger" (click)= "multiply()">MULTIPLICATION</button>
+            <button class = "btn-warning" (click)= "divide()">DIVISION</button>
+        </div>
+    </div>
+    <div class = "footer">
+        <h4>The sum of {{number1}} and {{number2}} is {{result}}</h4>
+
+    </div>
+</div>
+</header>

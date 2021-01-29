@@ -1,0 +1,70 @@
+header{
+    background-color: black;
+    height: 39rem;
+
+}
+h3{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+.card{
+    margin-left: 25rem;
+    margin-top: 10rem;
+    width: 555px;
+    background-color:#E8E8E8;
+    text-align: center;
+}
+.card-header{
+    padding: 10px;
+    background-color:#E8E8E8;
+    color: black;
+    text-align: left;
+    border: 1px solid #BEBEBE ;
+}
+.card-body{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #BEBEBE ;
+}
+.form-group{
+    padding-bottom: 40px;
+    display: flexbox;
+    justify-content:space-between;
+}
+.form-control{
+    display: flexbox;
+    height: 30px;
+    font-size: medium;
+    width: 15rem;
+    border: 2px solid #BEBEBE ;
+}
+.operations{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.btn-success{
+    background-color: yellow;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: violet;
+    cursor: pointer;
+}
+.btn-danger{
+    background-color: tomato;
+    cursor: pointer;
+}
+.btn-warning{
+    background-color: teal;
+    cursor: pointer;
+}
+.footer{
+    background-color: #E8E8E8;
+    text-align: left;
+    border: 1px solid #BEBEBE ;
+    padding-left: 10px;
+}
